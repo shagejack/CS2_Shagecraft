@@ -1,5 +1,5 @@
 # Shagecraft
-A minecraft mod project based on CustomStuff 2 and Java Programming
+A minecraft mod project based on CustomStuff 2 and JS Programming
 ## 作者
 正版ID:Shage_Jack<br>
 Github:ShageJack<br>
