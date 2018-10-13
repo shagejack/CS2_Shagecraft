@@ -10,10 +10,10 @@ toolClass[0] = "pickaxe";
 harvestLevel[0] = 1;
 textureFileXP[0] = "blockIndustrialElectrolyzerSide0.png";
 textureFileXN[0] = "blockIndustrialElectrolyzerSide0.png";
-textureFileYP[0] = "blockIndustrialElectrolyzerContainerTop0.png";
-textureFileYN[0] = "blockIndustrialElectrolyzerContainerBottom0.png";
-textureFileZP[0] = "blockIndustrialElectrolyzerContainerSide0.png";
-textureFileZN[0] = "blockIndustrialElectrolyzerContainerSide0.png";
+textureFileYP[0] = "blockIndustrialElectrolyzerTop0.png";
+textureFileYN[0] = "blockIndustrialElectrolyzerBottom0.png";
+textureFileZP[0] = "blockIndustrialElectrolyzerSide0.png";
+textureFileZN[0] = "blockIndustrialElectrolyzerSide0.png";
 
 tileEntity[0] = "entityIndustrialElectrolyzer";
 hasTileEntity[0] = true;

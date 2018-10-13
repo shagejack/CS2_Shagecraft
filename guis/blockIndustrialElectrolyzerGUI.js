@@ -15,7 +15,7 @@ width = 176;//GUI长度
 /*特殊*/
 inventoryX = 8;//背包起始点x值
 inventoryY = 84;//背包起始点y值
-chestX = 1;//箱子起始点x值
-chestY = 1;//箱子起始点y值
+chestX = 35;//箱子起始点x值
+chestY = 37;//箱子起始点y值
 
 /*触发器*/
