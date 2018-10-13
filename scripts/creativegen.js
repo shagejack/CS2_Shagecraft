@@ -1,1 +1,0 @@
-world.setTileEntityIntData(position,"e",world.getTileEntityIntData(position,"e")+1);
