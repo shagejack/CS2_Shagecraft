@@ -1,0 +1,20 @@
+name = "opHeater";
+material = "rock";
+stepSound = "stone";
+creativeTab = "_Shage";
+drop[0] = "shagecraft:opHeater";
+tileEntity[0] = "entityData";
+hasTileEntity[0] = true;
+addToCreative[0] = true;
+hardness[0] = -1.0;
+toolClass[0] = "pickaxe";
+harvestLevel[0] = 100;
+textureFileXP[0] = "opHeater0.png";
+textureFileXN[0] = "opHeater0.png";
+textureFileYP[0] = "opHeater0.png";
+textureFileYN[0] = "opHeater0.png";
+textureFileZP[0] = "opHeater0.png";
+textureFileZN[0] = "opHeater0.png";
+
+onAdded[0] = "world.setTileEntityFloatData(position,'temperature',1800);";
+onUpdate[0] = "mod.loadScript('opHeater.js');";

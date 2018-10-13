@@ -1,0 +1,27 @@
+name = "unfiredJar";
+material = "rock";
+stepSound = "stone";
+creativeTab = "_Shage";
+drop[0] = "shagecraft:unfiredJar";
+addToCreative[0] = true;
+hardness[0] = 1.0;
+toolClass[0] = "shovel";
+harvestLevel[0] = 1;
+textureFileXP[0] = "unfiredJar0.png";
+textureFileXN[0] = "unfiredJar0.png";
+textureFileYP[0] = "unfiredJarTop0.png";
+textureFileYN[0] = "unfiredJarBottom0.png";
+textureFileZP[0] = "unfiredJar0.png";
+textureFileZN[0] = "unfiredJar0.png";
+
+drop[1] = "shagecraft:unfiredJar:1";
+addToCreative[1] = true;
+hardness[1] = 1.0;
+toolClass[1] = "pickaxe";
+harvestLevel[1] = 1;
+textureFileXP[1] = "unfiredJar1.png";
+textureFileXN[1] = "unfiredJar1.png";
+textureFileYP[1] = "unfiredJarTop1.png";
+textureFileYN[1] = "unfiredJarBottom1.png";
+textureFileZP[1] = "unfiredJar1.png";
+textureFileZN[1] = "unfiredJar1.png";

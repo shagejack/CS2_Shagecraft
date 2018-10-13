@@ -1,0 +1,20 @@
+name = "fan";
+material = "rock";
+stepSound = "stone";
+creativeTab = "_Shage";
+drop[0] = "shagecraft:fan";
+tileEntity[0] = "entityData";
+hasTileEntity[0] = true;
+addToCreative[0] = true;
+hardness[0] = 1.0;
+toolClass[0] = "pickaxe";
+harvestLevel[0] = 1;
+textureFileXP[0] = "fan0.png";
+textureFileXN[0] = "fan0.png";
+textureFileYP[0] = "fan0.png";
+textureFileYN[0] = "fan0.png";
+textureFileZP[0] = "fan0.png";
+textureFileZN[0] = "fan0.png";
+
+onActivated[0] = "mod.loadScript('fan.js');";
+onUpdate[0] = "mod.loadScript('fancooling.js');";

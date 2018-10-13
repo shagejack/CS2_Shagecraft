@@ -1,0 +1,20 @@
+name = "blockClayBrickHeater";
+material = "rock";
+stepSound = "stone";
+creativeTab = "_Shage";
+drop[0] = "shagecraft:blockClayBrickHeater";
+addToCreative[0] = true;
+hardness[0] = 1.0;
+toolClass[0] = "pickaxe";
+harvestLevel[0] = 1;
+textureFileXP[0] = "blockClayBrickHeater0.png";
+textureFileXN[0] = "blockClayBrickHeater0.png";
+textureFileYP[0] = "blockClayBrickHeaterEnd0.png";
+textureFileYN[0] = "blockClayBrickHeaterEnd0.png";
+textureFileZP[0] = "blockClayBrickHeater0.png";
+textureFileZN[0] = "blockClayBrickHeater0.png";
+tileEntity[0] = "entityData";
+hasTileEntity[0] = true;
+
+onAdded[0] = "world.setTileEntityIntData(position,'Progress',0.0);";
+onUpdate[0] = "mod.loadScript('brickkiln.js');";

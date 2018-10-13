@@ -1,0 +1,21 @@
+name = "jar";
+material = "rock";
+stepSound = "stone";
+creativeTab = "_Shage";
+drop[0] = "shagecraft:jar";
+tileEntity[0] = "entityJar";
+hasTileEntity[0] = true;
+addToCreative[0] = true;
+hardness[0] = 1.0;
+toolClass[0] = "pickaxe";
+harvestLevel[0] = 0;
+textureFileXP[0] = "jarSide.png";
+textureFileXN[0] = "jarSide.png";
+textureFileYP[0] = "jarTop.png";
+textureFileYN[0] = "jarBottom.png";
+textureFileZP[0] = "jarSide.png";
+textureFileZN[0] = "jarSide.png";
+
+onAdded[0] = "world.setTileEntityFloatData(position,'temperature',20);";
+onActivated[0] = "player.openGui('jarGUI', position); result = true;";
+onUpdate[0] = "mod.loadScript('jar.js');";

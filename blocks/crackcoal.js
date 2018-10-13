@@ -1,0 +1,17 @@
+name = "crackcoal";
+material = "wood";
+stepSound = "wood";
+creativeTab = "_Shage";
+drop[0] = "shagecraft:cracked_coal:0 2-5";
+addToCreative[0] = true;
+hardness[0] = 1.0;
+toolClass[0] = "axe";
+harvestLevel[0] = 1;
+textureFileXP[0] = "crackcoal0.png";
+textureFileXN[0] = "crackcoal0.png";
+textureFileYP[0] = "crackcoal0.png";
+textureFileYN[0] = "crackcoal0.png";
+textureFileZP[0] = "crackcoal0.png";
+textureFileZN[0] = "crackcoal0.png";
+flammability[0] = 1;
+fireSpreadSpeed[0] = 1;

@@ -1,0 +1,94 @@
+name = "blockEndGame";
+material = "rock";
+stepSound = "stone";
+creativeTab = "_Shage";
+
+drop[0] = "shagecraft:blockEndGame";
+tileEntity[0] = "entityData";
+addToCreative[0] = true;
+hardness[0] = 1000.0;
+resistance[0] = 10000;
+toolClass[0] = "pickaxe";
+harvestLevel[0] = 80;
+textureFileXP[0] = "blockEndGame0.png";
+textureFileXN[0] = "blockEndGame0.png";
+textureFileYP[0] = "blockEndGame0Top.png";
+textureFileYN[0] = "blockEndGame0Top.png";
+textureFileZP[0] = "blockEndGame0.png";
+textureFileZN[0] = "blockEndGame0.png";
+
+drop[1] = "shagecraft:blockEndGame:1";
+tileEntity[1] = "entityData";
+addToCreative[1] = true;
+hardness[1] = 1000.0;
+resistance[1] = 10000;
+toolClass[1] = "pickaxe";
+harvestLevel[1] = 80;
+textureFileXP[1] = "blockEndGame1.png";
+textureFileXN[1] = "blockEndGame1.png";
+textureFileYP[1] = "blockEndGame1.png";
+textureFileYN[1] = "blockEndGame1.png";
+textureFileZP[1] = "blockEndGame1.png";
+textureFileZN[1] = "blockEndGame1.png";
+
+drop[2] = "shagecraft:blockEndGame:2";
+tileEntity[2] = "entityData";
+addToCreative[2] = true;
+hardness[2] = 1000.0;
+resistance[2] = 10000;
+toolClass[2] = "pickaxe";
+harvestLevel[2] = 80;
+textureFileXP[2] = "blockEndGame2.png";
+textureFileXN[2] = "blockEndGame2.png";
+textureFileYP[2] = "blockEndGame2.png";
+textureFileYN[2] = "blockEndGame2.png";
+textureFileZP[2] = "blockEndGame2.png";
+textureFileZN[2] = "blockEndGame2.png";
+
+drop[3] = "shagecraft:blockEndGame:3";
+tileEntity[3] = "entityData";
+addToCreative[3] = true;
+hardness[3] = 1000.0;
+resistance[3] = 10000;
+toolClass[3] = "pickaxe";
+harvestLevel[3] = 80;
+textureFileXP[3] = "blockEndGame3.png";
+textureFileXN[3] = "blockEndGame3.png";
+textureFileYP[3] = "blockEndGame3.png";
+textureFileYN[3] = "blockEndGame3.png";
+textureFileZP[3] = "blockEndGame3.png";
+textureFileZN[3] = "blockEndGame3.png";
+
+drop[4] = "shagecraft:blockEndGame:4";
+tileEntity[4] = "entityData";
+addToCreative[4] = true;
+hardness[4] = 1000.0;
+resistance[4] = 10000;
+toolClass[4] = "pickaxe";
+harvestLevel[4] = 80;
+textureFileXP[4] = "blockEndGame4.png";
+textureFileXN[4] = "blockEndGame4.png";
+textureFileYP[4] = "blockEndGame4.png";
+textureFileYN[4] = "blockEndGame4.png";
+textureFileZP[4] = "blockEndGame4.png";
+textureFileZN[4] = "blockEndGame4.png";
+tileEntity[4] = "entityData";
+hasTileEntity[4] = true;
+
+onAdded[4] = "world.setTileEntityIntData(position,'active',0);world.setTileEntityIntData(position,'activeTime',0);world.setTileEntityStringData('owner','null');";
+onUpdate[4] = "mod.loadScript('voidSummoning.js');";
+
+drop[5] = "shagecraft:blockEndGame:5";
+tileEntity[5] = "entityData";
+addToCreative[5] = true;
+hardness[5] = 1000.0;
+resistance[5] = 10000;
+toolClass[5] = "pickaxe";
+harvestLevel[5] = 80;
+textureFileXP[5] = "blockEndGame5.png";
+textureFileXN[5] = "blockEndGame5.png";
+textureFileYP[5] = "blockEndGame5.png";
+textureFileYN[5] = "blockEndGame5.png";
+textureFileZP[5] = "blockEndGame5.png";
+textureFileZN[5] = "blockEndGame5.png";
+

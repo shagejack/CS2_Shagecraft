@@ -1,0 +1,17 @@
+name = "shieldStone";
+material = "rock";
+stepSound = "stone";
+creativeTab = "_Shage";
+drop[0] = "shagecraft:shieldStone";
+hasTileEntity[0] = false;
+addToCreative[0] = true;
+hardness[0] = 1000.0;
+toolClass[0] = "pickaxe";
+harvestLevel[0] = 3;
+textureFileXP[0] = "shieldStone0.png";
+textureFileXN[0] = "shieldStone0.png";
+textureFileYP[0] = "shieldStone0.png";
+textureFileYN[0] = "shieldStone0.png";
+textureFileZP[0] = "shieldStone0.png";
+textureFileZN[0] = "shieldStone0.png";
+resistance[0] = 10000;

@@ -1,0 +1,21 @@
+name = "blockTransformer";
+material = "rock";
+stepSound = "stone";
+creativeTab = "_Shage";
+drop[0] = "shagecraft:blockTransformer";
+tileEntity[0] = "entityTransformer";
+hasTileEntity[0] = true;
+addToCreative[0] = true;
+hardness[0] = 1.0;
+toolClass[0] = "pickaxe";
+harvestLevel[0] = 1;
+textureFileXP[0] = "blockTransformer.png";
+textureFileXN[0] = "blockTransformer.png";
+textureFileYP[0] = "blockTransformer.png";
+textureFileYN[0] = "blockTransformer.png";
+textureFileZP[0] = "blockTransformer.png";
+textureFileZN[0] = "blockTransformer.png";
+
+information[0] = "§4Shage科技制造";
+onActivated[0] = "if(player.isSneaking()==false){player.openGui('blockTransformerGUI', position); result = true;}";
+onUpdate[0] = "mod.loadScript('transform.js');";
