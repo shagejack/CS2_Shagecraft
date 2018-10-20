@@ -31,6 +31,8 @@ mod.addBlock("blockVoid.js","normal");
 mod.addBlock("blockBatteryContainer.js","normal");
 mod.addBlock("blockMultiblock.js","normal");
 mod.addBlock("blockIndustrialElectrolyzer.js","normal");
+mod.addBlock("blockMultiblockOutput.js","normal");
+mod.addBlock("BatteryCharger.js","normal");
 
 //物品
 mod.addItem("itemDebugTool.js", "normal");
@@ -74,6 +76,8 @@ mod.addGui("jarGUI.js","chest");
 mod.addGui("blockTransformerGUI.js","chest");
 mod.addGui("blockBatteryContainerGUI.js","chest");
 mod.addGui("blockIndustrialElectrolyzerGUI.js","chest");
+mod.addGui("blockMultiblockOutputGUI.js","chest");
+mod.addGui("batteryChargerGUI.js","chest");
 
 //方块实体
 mod.addTileEntity("entityData.js", "normal");
@@ -85,6 +89,8 @@ mod.addTileEntity("entityJar.js","chestBlock");
 mod.addTileEntity("entityTransformer.js","chestBlock");
 mod.addTileEntity("entityBatteryContainer.js","chestBlock");
 mod.addTileEntity("entityIndustrialElectrolyzer.js","chestBlock");
+mod.addTileEntity("entityMultiblockOutput.js","chestBlock");
+mod.addTileEntity("entityBatteryCharger.js","chestBlock");
 
 //脚本
 

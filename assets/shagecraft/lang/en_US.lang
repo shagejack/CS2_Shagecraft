@@ -58,11 +58,15 @@ tile.blockEndGame3.name=寰宇崩析之塔结构稳定方块
 tile.blockEndGame4.name=寰宇崩析之塔能量焦点
 tile.blockEndGame5.name=寰宇崩析之塔质量环外壳
 
-tile.blockBatteryContainer0.name=低压蓄电池盒
-tile.blockBatteryContainer1.name=中压蓄电池盒
-tile.blockBatteryContainer2.name=高压蓄电池盒
+tile.blockBatteryContainer0.name=Low-Voltage Battery Case
+tile.blockBatteryContainer1.name=Medium-Voltage Battery Case
+tile.blockBatteryContainer2.name=High-Voltage Battery Case
+
+tile.batteryCharger0.name=Industrial Battery Charger
 
 tile.blockMultiblock0.name=Multiblock Construction Shell
+
+tile.blockMultiblockOutput0.name=Multiblock Construction Output Side
 
 tile.blockIndustrialElectrolyzer0.name=Industrial Electrolyzer
 
@@ -99,12 +103,12 @@ item.itemAlloyIngots0.name=寰宇崩析之构型
 item.itemAlloyIngots1.name=苍穹璀璨之源质
 item.itemAlloyIngots2.name=天地构解之琼浆
 
-item.industrialBattery0.name=工业级蓄电池
-item.itemMultimeter0.name=万用表
+item.industrialBattery0.name=Industrial Battery
+item.itemMultimeter0.name=Multimeter
 
 item.itemA0.name=NaCl固体
 item.itemA1.name=NaOH溶液罐
-item.itemA3.name=空罐
+item.itemA3.name=Empty Canister
 item.itemA4.name=氯气罐
 item.itemA5.name=氢气罐
 item.itemA6.name=水单元（工业纯）

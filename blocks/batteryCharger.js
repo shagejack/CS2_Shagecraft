@@ -1,0 +1,21 @@
+name = "batteryCharger";
+material = "rock";
+stepSound = "stone";
+creativeTab = "_Shage";
+drop[0] = "shagecraft:batteryCharger";
+tileEntity[0] = "entityBatteryCharger";
+hasTileEntity[0] = true;
+addToCreative[0] = true;
+hardness[0] = 1.0;
+toolClass[0] = "pickaxe";
+harvestLevel[0] = 1;
+textureFileXP[0] = "batteryChargerSide0.png";
+textureFileXN[0] = "batteryChargerSide0.png";
+textureFileYP[0] = "batteryChargerTop0.png";
+textureFileYN[0] = "batteryChargerTop0.png";
+textureFileZP[0] = "batteryChargerSide0.png";
+textureFileZN[0] = "batteryChargerSide0.png";
+
+//onAdded[0] = "world.setTileEntityIntData(position,'charge',0);world.setTileEntityIntData(position,'maxCharge',1000000);";
+onActivated[0] = "player.openGui('batteryChargerGUI', position); result = true;";
+onUpdate[0] = "mod.loadScript('batteryCharger.js');";

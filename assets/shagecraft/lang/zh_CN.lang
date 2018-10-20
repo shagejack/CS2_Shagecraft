@@ -62,7 +62,11 @@ tile.blockBatteryContainer0.name=低压蓄电池盒
 tile.blockBatteryContainer1.name=中压蓄电池盒
 tile.blockBatteryContainer2.name=高压蓄电池盒
 
+tile.batteryCharger0.name=蓄电池充电器
+
 tile.blockMultiblock0.name=多方块机器外壳
+
+tile.blockMultiblockOutput0.name=多方块机器输出口
 
 tile.blockIndustrialElectrolyzer0.name=工业电解槽
 

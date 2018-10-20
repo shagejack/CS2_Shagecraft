@@ -20,9 +20,9 @@ function setCharge(charge){
 //多方块结构检测
 unable = 0;
 
-var m = [[[3,3,3],
-				[3,1,3],
-				[3,3,3]],
+var m = [[[0,0,0],
+				[0,1,0],
+				[0,0,0]],
 				[[0,0,0],
 				[0,3,0],
 				[0,0,0]],
@@ -40,9 +40,9 @@ var m = [[[3,3,3],
 for(var i=0;i<3;i++){
 for(var u=0;u<3;u++){
 for(var o=0;o<4;o++){
-		if(m[o][u][i]==0&&(world.getBlockName(x+1-i,y-o,z+1-u)!="shagecraft:blockMultiblock"||world.getBlockMetadata(x+4-i,y,z+4-u)!=0)){unable++;break;}
-		if(m[o][u][i]==1&&(world.getBlockName(x+1-i,y-o,z+1-u)!="shagecraft:blockIndustrialElectrolyzer"||world.getBlockMetadata(x+4-i,y,z+4-u)!=0)){unable++;break;}
-		if(m[o][u][i]==2&&world.getBlockName(x+1-i,y-o,z+1-u)!="shagecraft:blockBatteryContainer"){unable++;break;}
+		if(m[o][u][i]==0 && (world.getBlockMetadata(x+1-i,y-o,z+1-u)!=0 || (world.getBlockName(x+1-i,y-o,z+1-u)!="shagecraft:blockMultiblock" && world.getBlockName(x+1-i,y-o,z+1-u)!="shagecraft:blockMultiblockOutput"))){unable++;break;}
+		if(m[o][u][i]==1 && (world.getBlockName(x+1-i,y-o,z+1-u)!="shagecraft:blockIndustrialElectrolyzer" || world.getBlockMetadata(x+1-i,y-o,z+1-u)!=0)){unable++;break;}
+		if(m[o][u][i]==2 && world.getBlockName(x+1-i,y-o,z+1-u)!="shagecraft:blockBatteryContainer"){unable++;break;}
 		if(unable>0){break;}
 		}
 		if(unable>0){break;}
