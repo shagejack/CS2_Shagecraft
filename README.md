@@ -1,5 +1,5 @@
 # Shagecraft
-A minecraft mod project based on CustomStuff 2 and JS Programming.<br>This mod is designed to suit my own modpack. And it's totally not a FML mod.<br>An unoffical version of Custom Stuff 2 is required, it can be downloaded [here](http://www.mediafire.com/file/79mgc0ug34yzz79/CustomStuff2-0.11.29-MC1.7.10-NBTFixed.jar/file).<br>Some new features will not function with normal version of Custom Stuff 2.
+A minecraft mod project based on CustomStuff 2 and JS Programming.<br>This mod is designed to suit my own modpack. And it's totally not a FML mod.<br>An unoffical version of Custom Stuff 2 is required, it can be downloaded [here](https://www.mediafire.com/file/dhif3m1dc9rd79k/CustomStuff2-0.11.29-MC1.7.10-Unoffical.jar/file).<br>Some new features will not function with normal version of Custom Stuff 2.
 
 ## Author
 Minecraft: Shage_Jack<br>Github: ShageJack<br>MCBBS Account: 1012723234
